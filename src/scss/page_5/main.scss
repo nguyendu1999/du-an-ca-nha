@@ -1,0 +1,76 @@
+@import"../globals/variables.scss";
+
+
+.single_big{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300vh;
+    background: $color-ex;
+}
+
+.single_one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.single_one img{
+    width: 80%;
+    border-radius: 7px;
+}
+
+.single_tow{
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 50px;
+}
+p{
+    color: $color-light;
+    padding-top: 15px;
+}
+h3{
+    font-size: 30px;
+    color: $color-white;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.without_{
+    margin-bottom: 25px;
+    display: flex;
+    a{
+        color: $color-white;
+        padding: 0 5px;
+        padding-top: 3px;
+    }
+}
+.without_ p{
+    padding-top: 5px;
+}
+.cie{
+    border-left: 1px solid $color-light;
+    margin: 0 10px;
+    padding: 0 10px;
+}
+
+.without_1{
+    border: 1px solid $color-bg ;
+    border-left: 2px solid $color-space;
+    border-left-width: $color-space ;
+    padding: 40px;
+    margin: 25px 0;
+    border-radius: 13px;
+    background: $color-bg;
+}
+.without_2{
+    display: flex;
+}
+.without_2 img{
+    width:42%;
+    margin: 30px 0;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+.without_2 p{
+    margin-top: 20px;
+    word-break: break-all;
+}

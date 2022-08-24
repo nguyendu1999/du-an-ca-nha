@@ -1,0 +1,75 @@
+@import"../globals/variables.scss";
+
+#big-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: $color-ex;
+}
+.big-menu-one{
+    display: flex;
+    gap: 30px;
+}
+.contten-menu{
+    width: 150px;
+    height: 50px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $color-space;
+    border-radius: 7px;
+    background: $color-space;
+    a{
+        color: $color-white;
+    }
+}
+.contten-menu-1{
+    width: 150px;
+    height: 50px;
+    border-style:  solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    color: $color-light;
+    a{
+        color: $color-white;
+    }
+    a:hover{
+        color: $color-light;
+        transition: 0.7s all;
+    }
+}
+.big-menu-tow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    justify-content: space-around;
+}
+.small-menu{
+    width: 600px;
+    padding-top: 50px;
+}
+.small-menu-one{
+    display: flex;
+    justify-content: space-between;
+    h6{
+        color: $color-white;
+        font-size: 25px;
+        font-weight: 400;
+    }
+}
+h6:nth-child(2){
+    color: $color-space;
+        font-size: 27px;
+        font-weight: 400;
+}
+.small-menu-tow{
+    color: $color-light;
+    border-top: 3px dotted cornsilk;
+    padding-bottom: 40px;
+}

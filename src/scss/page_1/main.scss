@@ -1,0 +1,371 @@
+@import"../globals/variables.scss";
+
+#mid-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $color-bg;
+    height: 80vh;
+    padding-left: 100px;
+    padding-right: 100px;
+    .mid-main-one{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-style: solid;
+        border-radius: 7px;
+        margin: 0 20px;
+        height: 400px;
+        color: $color-text;
+    }
+    .mid-main-one:hover{
+        transform: scale(1.1);
+        transition: 1s;
+    }
+    
+    .text-Burgers{
+        color: $color-white;
+        font-weight: 500;
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    .Vivamus{
+        width: 70%;
+        justify-content: center;
+        letter-spacing: 0.5px;
+        margin: 20px 0;
+        text-align:center;
+        color: $color-light;
+    }
+    .view-all{
+        color: $color-white;
+    }
+    .text-Burgers:hover{
+        color: $color-space;
+        transition: 0.7s all;
+    }
+}
+
+#top-main {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $color-ex;
+}
+
+.top-main-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    word-spacing: 1px;
+    word-wrap: 10px;
+    padding: 0 30px;
+}
+.natural{
+    display: flex;
+    margin: 20px;
+}
+.nut{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+.ing-a{
+    color: $color-white;
+    width: 250px;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.ing-a:hover{
+    color: $color-space;
+    transition: 0.7s all;
+}
+.ipusum-p{
+    width: 250px;
+    text-align: justify;
+    margin-top: 20px;
+    color: $color-light;
+    justify-content: center;
+    font-size: 15px;
+    word-wrap: 10px;
+}
+._img_burger1{
+    width: 350px;
+}
+// icon
+.ti-gallery,.ti-bag,.ti-user,.ti-settings,.ti-wheelchair,.ti-thumb-down{
+    color: $color-space;
+    font-size:  30px;
+}
+.ti-gallery:hover,.ti-bag:hover,.ti-user:hover,.ti-settings:hover,.ti-wheelchair:hover,.ti-thumb-down:hover{
+    transform: scale(1.07);
+    color: blue;
+    transition: 0.7s all;
+}
+
+#book-table{
+    background-image: initial ;
+    background-position: initial;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.book-table-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.book-table-all h3:first-child{
+    // color: $color-white;
+    width: 60%;
+    text-align: center;
+    font-size: 30px;
+} 
+.book-table-all h3:nth-child(2){
+    margin: 20px 0;
+    font-size: 30px;
+}
+.book-table-all h3:nth-child(2) a{
+    color: $color-space;
+}
+.book-table-all h3:nth-child(2) a:hover{
+    color: orangered;
+    transition: 0.9s all;
+}
+.book-table-smal{
+    display: flex;
+    gap:  50px;
+    margin-top: 50px;
+}
+.book-table-smal div:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $color-space;
+    width:200px;
+    height: 50px;
+    border-radius: 7px;
+    a{
+        color:$color-bg;
+        font-weight: 600;
+    }
+}
+.book-table-smal div:nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $color-space;
+    width: 200px;
+    border-radius: 7px;
+    border-style: solid;
+    a{
+        color:$color-bg;
+        font-weight: 600;
+    }
+}
+.book-table-smal div:nth-child(2):hover{
+    background-color: $color-space;
+    transition: 0.7s all;
+    transform: scale(1.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#list{
+    background: $color-ex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#list div:first-child{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.list_burgers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.list_burgers p:first-child{
+    color: $color-light;
+    font-weight: 600;
+}
+.list_burgers p:nth-child(2){
+    font-size: 30px;
+    color: $color-white;
+    position: 20px;
+    margin: 30px 0;
+    margin-bottom: 40px;
+}
+
+// animation
+
+.img_big{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.img_smic{
+    width: 280px;
+    height: 200px;
+    border-radius: 10px;
+    position: relative;
+}
+.img_overlay{
+    color: $color-white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    background-color:rgba(0, 0, 0, 0.6); ;
+    width: 280px;
+    height: 200px;
+    border-radius: 10px;
+}
+.img_overlay:hover {
+    opacity: 1;
+    transition: 0.7s all;
+}
+
+// icon
+.ti-plus{
+    padding: 10px;
+}
+
+#_big-Reasons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+    background: $color-bg;
+}
+.min_Reasons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: $color-white;
+    margin-top: 40px;
+    p{
+        color: $color-text;
+    }
+    h4{
+        margin-top: 10px;
+        font-size: 25px;
+        font-weight: 600;
+    }
+}
+.max_Reasons{
+    display: flex;
+    text-align: center;
+    margin-top:60px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+._box{
+    color: $color-white;
+    margin: 30px 0;
+}
+._text{
+    color: $color-light;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+// icon
+.ti-bar-chart-alt,.ti-package,.ti-id-badge,.ti-shield{
+    color: $color-space;
+    font-size: 30px;
+}
+.ti-bar-charx   t-alt:hover,.ti-package:hover,.ti-id-badge:hover,.ti-shield:hover{
+    color: rgb(130, 50, 205);
+    transform: scale(1.05);
+    transition: 1s all;
+}
+
+#Download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $color-ex;
+    height: 100vh;
+    padding-left:150px ;
+    padding-right: 150px;
+}
+.Download-big{
+    color:$color-white;
+    p{
+        color: $color-light;
+        margin: 30px 0;
+    }
+    h3{
+        font-size: 35px;
+        margin: 30px 0;
+    }
+}
+.Download-tow{
+    display: flex;
+    gap: 15px;
+}
+.Download-ij{
+    border-style:solid;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 60%;
+    margin: 20px 0;  
+}
+.Download-ol{
+    display: flex;
+    margin: 10px 0;
+    input{
+        width: 370px;
+        height: 50px;
+        border-bottom-left-radius: 7px;
+        border-top-left-radius: 7px;
+        padding: 30px;
+    }
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-style: solid;
+        width: 120px;
+        height: 60px;
+        margin-top: 10px;
+        margin-left: -10px;
+        background: $color-space;
+        color: $color-space;
+        border-bottom-right-radius: 7px;
+        border-top-right-radius: 7px;
+        a{
+            color: $color-white;
+        }
+    }
+}
+.Download-img{
+    width: 600px; 
+    height: 500px;
+    border-radius: 10px;
+    margin: 0 20px;
+}

@@ -1,0 +1,158 @@
+@import"../globals/variables.scss";
+
+.footer_big{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding-left: 100px;
+    padding-right: 100px;
+    background: $color-bg;
+}
+.footer-one{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    margin:  30px;
+    p{
+        color: $color-light;
+    }
+}
+._one{
+    display: flex;
+    margin: 20px 0;
+    padding: 10px 0;
+    a{
+        text-align: center;
+        padding: 10px;
+        color: $color-white;
+    }
+}
+.ti-olo{
+    width: 40px;
+    height: 40px;
+    border-style: solid;
+    border-radius: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:blue;
+}
+._tow{
+    display: flex;
+    margin-top: 20px;
+}
+._tow div{
+    display: flex;
+    padding: 0 20px;
+}
+._tow div:nth-child(3){
+    background: rgb(75, 129, 221);
+}
+._tow div:nth-child(4){
+    background: rgb(185, 94, 61);
+}
+._tow 
+div:nth-child(5){
+    background: rgb(131, 127, 115);
+}
+.ti-facebook,.ti-twitter,.ti-google,.ti-basketball{
+    font-size: 23px;
+    color: $color-light;
+}
+
+.footer-tow{
+    width: 50%;
+    margin: 0 10px;
+}
+.footer-tow div:nth-child(1){
+    color: $color-white;
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.footer-tow div:nth-child(2){
+    display: flex;
+    p{
+        color: $color-light;
+        margin: 5px 0;
+    }
+}
+.footer-tow div:nth-child(3),.footer-tow div:nth-child(4){
+    padding: 5px 0;
+    b{
+        color: $color-light;
+    }
+    a{
+        color: $color-light;
+    }
+}
+.footer-tow div:nth-child(3) a:hover,.footer-tow div:nth-child(4) a:hover{
+    color: $color-white;
+}
+.footer-tow div:nth-child(5){
+    p{
+        font-size: 23px;
+        color: $color-white;
+        font-weight: 600;
+        margin: 20px 0;
+    }
+}
+
+.footer-three div:first-child{
+    margin-bottom: 20px;
+    p{
+        color: $color-white;
+        font-weight: 600;
+        font-size: 23px;
+    }
+}
+.footer-three p:nth-child(2){
+    color: $color-light;
+    margin: 10px 0;
+}   
+input{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+.intr{
+    border-style: solid;
+    color: rgb(133, 177, 45);
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    background: rgb(133, 177, 45);
+    font-weight: 500;
+    a{
+        color: $color-bg;
+    }
+}
+.in{
+    font-size: 23px;
+    font-weight: 500;
+    color: $color-light;
+    margin: 20px 0;
+}
+
+#footer-end{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $color-ex;
+    p{
+        color: $color-text;
+    }
+    a{
+        color: $color-light;
+    }
+    a:hover{
+        color: $color-space;
+    }
+}
