@@ -15,7 +15,6 @@ header{
     #_header-about nav{
         display: flex;
         justify-content: space-around;
-        margin: 0 20px;
     }
     ._header-left-about{
         display: flex;
@@ -26,17 +25,20 @@ header{
             font-weight: 900;
         }
         .burger{
-            width: 70px;
-            height: 70px;
+            width: 40px;
+            height: 40px;
+            margin-top: 25px;
+            margin-left: 60px;
         }
     }
     ._header-right-about{
         padding: 0 20px;
+        opacity: 1;
     }
     ._header-right-about ul {
         display: flex;
         margin-top: 70px;
-    }
+    } 
     ._header-right-about ul li:nth-child(4) a{
         color: #fbaf32; 
     }
@@ -48,7 +50,7 @@ header{
     ._header-right-about ul li:nth-child(4){
         position: relative;
     }
-    ._header-right-about ul li:not(:nth-child(4)):hover a{
+    ._header-right-about ul li:not(:first-child):hover a{
         color: #fbaf32;
         transition: 0.7s;
     }
@@ -174,4 +176,16 @@ header{
 }
 iframe{
     width: 100%;
+}
+
+@media only screen and (max-width:992){
+    ._header-right-about{
+        padding: 0;
+        margin: 0;
+    }
+}
+@media only screen and (max-width:567){
+    ._header-right-about{
+        opacity: 0;
+    }
 }
