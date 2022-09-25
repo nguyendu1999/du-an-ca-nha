@@ -1,0 +1,90 @@
+@import"../globals/variables.scss";
+
+.div-big{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: $color-ex;
+    height: auto;
+    padding: 50px 0;
+    h2{
+        font-size: 10em;
+        -webkit-text-stroke-width: 4px;
+        -webkit-text-stroke-color: $color-space;
+        text-decoration: none;
+        color: transparent;
+        font-family: 'Dosis', sans-serif;
+        font-weight: 700px;
+    }
+    h4{
+        font-size: 30px;
+        color: $color-white;
+        line-height: 2;
+    }
+    p{
+        font-size: 18px;
+       width: 100%;
+       color: $color-light;
+       text-align: center;
+       line-height: 2;
+       padding-left: 32%;
+       padding-right:32% ;
+    }
+    a{
+        border: solid 1px yellowgreen;
+        border-width: 20%;
+        font-weight: 600;
+        line-height: 2;
+        padding: 5px 10px;
+        border-radius:5px ;
+        background: yellowgreen;
+        color: black;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width:1024px){
+    .div-big{
+        h2{
+            font-size: 8em;
+        }
+        h4{
+            font-size: 28px;
+        }
+        p{
+            padding-left: 30%;
+            padding-right: 30%;
+        }
+    }
+} 
+
+@media only screen and (max-width:768px){
+    .div-big{
+        h2{
+            font-size: 8em;
+        }
+        h4{
+            font-size: 25px;
+        }
+        p{
+            padding-left: 25%;
+            padding-right: 25%;
+        }
+    }
+} 
+
+@media only screen and (max-width:425px){
+    .div-big{
+        h2{
+            font-size: 5em;
+        }
+        h4{
+            font-size: 20px;
+        }
+        p{
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+    }
+} 

@@ -673,8 +673,15 @@ button {
   color: #bbbbbb;
 }
 
+.footer-smal {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  justify-content: center;
+}
+
 .footer-tow {
-  width: 50%;
+  width: 100%;
   margin: 0 10px;
 }
 
@@ -714,6 +721,10 @@ button {
   margin: 20px 0;
 }
 
+.footer-three {
+  width: 100%;
+}
+
 .footer-three div:first-child {
   margin-bottom: 20px;
 }
@@ -729,7 +740,7 @@ button {
 }
 
 input {
-  width: 400px;
+  width: 100%;
   height: 40px;
   border-radius: 5px;
   padding: 10px;
@@ -739,7 +750,7 @@ input {
 .intr {
   border-style: solid;
   color: rgb(133, 177, 45);
-  width: 400px;
+  width: 100%;
   height: 40px;
   text-align: center;
   border-radius: 5px;

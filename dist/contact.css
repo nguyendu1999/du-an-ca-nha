@@ -75,7 +75,8 @@ button {
   justify-content: center;
   align-items: center;
   gap: 50px;
-  height: 100vh;
+  height: auto;
+  padding: 150px;
   background: #1b1a1a;
 }
 
@@ -92,14 +93,14 @@ button {
 
 .conntact-one input {
   height: 70px;
-  width: 350px;
+  width: 370px;
   color: white;
   background: black;
   border: var(#c89a12) solid 1px;
 }
 
 textarea {
-  width: 705px;
+  width: 750px;
   height: 200px;
   padding: 0 15px;
   border-radius: 5px;
@@ -184,6 +185,78 @@ iframe {
   width: 100%;
 }
 
+@media only screen and (max-width: 1427px) {
+  .conntact-one input {
+    height: 60px;
+    width: 350px;
+  }
+  textarea {
+    width: 710px;
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .conntact-one input {
+    height: 50px;
+    width: 350px;
+  }
+  textarea {
+    width: 710px;
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #conntact-big {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+  .conntact-tow {
+    margin-top: 50px;
+  }
+  .conntact-one input {
+    height: 50px;
+    width: 280px;
+  }
+  textarea {
+    width: 570px;
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .conntact-tow {
+    margin-top: 50px;
+    padding: 100px;
+  }
+  .conntact-one input {
+    height: 50px;
+    width: 510px;
+  }
+  textarea {
+    width: 510px;
+    height: 200px;
+  }
+  .conntact-one h3 {
+    font-style: 20px;
+  }
+}
+@media only screen and (max-width: 515px) {
+  .conntact-tow {
+    margin-top: 50px;
+    padding: 100px;
+  }
+  .conntact-one input {
+    height: 50px;
+    width: 510px;
+  }
+  textarea {
+    width: 480px;
+    height: 200px;
+  }
+  .conntact-one h3 {
+    font-style: 20px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
